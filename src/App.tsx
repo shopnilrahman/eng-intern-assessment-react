@@ -37,7 +37,7 @@ const App: React.FC = () => {
 
   return (
     <div>
-      <StopWatch time={time} laps={laps} />
+      <StopWatch elapsedTime={time} laps={laps} />
       <StopwatchButton onStart={startStopwatch} onStop={stopStopwatch} onReset={resetStopwatch} onLap={recordLap} />
     </div>
   );
